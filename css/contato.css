@@ -1,0 +1,57 @@
+#contato {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-image: url(../img/familia-na-praia.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -40px;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.form {
+    margin-bottom: 25px;
+    height: 40px;
+    width: 800px;
+    border-radius: 8px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-bottom: 25px;
+    font-size: 16px;
+    height: 40px;
+    width: 510px;
+    border-radius: 8px;
+     background: rgb(20,31,232);
+     background: linear-gradient(173deg, rgba(20,31,232,1) 0%, rgba(45,115,253,1) 100%);
+     color: #fff;
+}
+
+footer {
+    background: rgb(20,31,232);
+    background: linear-gradient(173deg, rgba(20,31,232,1) 0%, rgba(45,115,253,1) 100%);
+    color: #fff;
+    padding: 20px;
+  }
